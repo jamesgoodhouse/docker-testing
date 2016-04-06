@@ -1,0 +1,17 @@
+# exclude these files, regardless of where they are
+**/*.md
+**/.gitkeep
+**/.keep
+
+# exclude these files
+.dockerignore
+.gitignore
+
+# exclude all files in these directories
+log/*
+tmp/*
+
+# exclude these directories
+.bundle/
+.git/
+vender/cache/
