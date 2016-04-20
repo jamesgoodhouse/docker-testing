@@ -6,6 +6,7 @@
 # exclude these files
 .dockerignore
 .gitignore
+Dockerfile
 
 # exclude all files in these directories
 log/*
