@@ -5,5 +5,5 @@ machine:
 dependencies:
   override:
     - docker info
-    - docker pull -t jamgood96/docker-testing
+    - docker pull jamgood96/docker-testing
     - docker build -t jamgood96/docker-testing .
