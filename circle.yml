@@ -1,0 +1,9 @@
+---
+machine:
+  services: [ docker ]
+
+dependencies:
+  override:
+    - docker info
+    - docker pull -t jamgood96/docker-testing
+    - docker build -t jamgood96/docker-testing .
