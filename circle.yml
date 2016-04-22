@@ -6,7 +6,9 @@ dependencies:
   override:
     - docker info
     - docker pull jamgood96/docker-testing
+    - docekr images
     - docker build -t jamgood96/docker-testing .
+    - docekr images
 
 database:
   override:
