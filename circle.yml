@@ -13,3 +13,13 @@ dependencies:
 database:
   override:
     - echo 'skipping database setup'
+
+test:
+  override:
+    - docker run jamgood96/docker-testing ls -la
+
+deployment:
+  publish_image:
+    branch: master
+    commands:
+      - docker push jamgood96/docker-testing
