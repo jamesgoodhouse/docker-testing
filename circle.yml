@@ -10,3 +10,4 @@ dependencies:
 
 database:
   override:
+    - echo 'skipping database setup'
